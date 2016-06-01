@@ -74,3 +74,79 @@ LINE: 285
 CODE: $this->cache->delete('product');
 LINE: 349
 ----------------------------------------------------------------
+2016-05-30 16:26:36 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: Brainy Filter
+FILE: catalog/controller/product/category.php
+CODE: $pagination = new Pagination();
+LINE: 346
+CODE: $data['sorts'] = array();
+LINE: 242
+CODE: $data['limits'] = array();
+LINE: 320
+CODE: $product_total = $this->model_catalog_product->getTotalProducts($filter_data);
+LINE: 184
+CODE: $data['products'] = array();
+LINE: 174
+CODE: $category_info = $this->model_catalog_category->getCategory($category_id);
+LINE: 105
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <?php echo $header; ?>
+LINE: 1
+CODE: <?php if ($products) { ?>
+LINE: 59
+CODE: <?php echo $content_bottom; ?>
+LINE: 156
+CODE: <?php echo $footer; ?>
+LINE: 160
+FILE: catalog/view/theme/default/template/common/header.tpl
+REGEX: /(jquery([\d\.\-]+)?(.min)?.js[^\>]+\>\<\/script\>)/
+LINE: 20
+FILE: catalog/controller/product/search.php
+CODE: $pagination = new Pagination();
+LINE: 429
+CODE: $data['sorts'] = array();
+LINE: 293
+CODE: $data['limits'] = array();
+LINE: 388
+CODE: $product_total = $this->model_catalog_product->getTotalProducts($filter_data);
+LINE: 220
+CODE: if (isset($this->request->get['search']) || isset($this->request->get['tag'])) {
+LINE: 198
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <?php echo $header; ?>
+LINE: 1
+CODE: <?php if ($products) { ?>
+LINE: 74
+CODE: <?php echo $content_bottom; ?>
+LINE: 165
+CODE: <?php echo $footer; ?>
+LINE: 216
+FILE: catalog/model/catalog/product.php
+CODE: $query = $this->db->query($sql);
+LINE: 197
+CODE: $query = $this->db->query($sql);
+LINE: 504
+FILE: admin/model/catalog/product.php
+CODE: $this->cache->delete('product');
+LINE: 125
+LINE: 285
+CODE: $this->cache->delete('product');
+LINE: 349
+----------------------------------------------------------------

@@ -1111,7 +1111,7 @@ final class ModelModuleBrainyFilter extends Model
             ->where('ad.language_id = ?', (int)$this->config->get('config_language_id'))
             ->where('av.language_id = ?', (int)$this->config->get('config_language_id'))
             ->where('af.type = ?', 'ATTRIBUTE')
-            ->where('av.attribute_id=14')
+            ->where('av.attribute_id=15')
             ->group(array('av.attribute_value_id'));
 
         $typeAvto = $this->db->query($sql2);
@@ -1120,7 +1120,7 @@ final class ModelModuleBrainyFilter extends Model
 
         for($i=0;$i<count($res->rows);$i++ )
         {
-            if($res->rows[$i]['attr_id']==14)
+            if($res->rows[$i]['attr_id']==15)
             {
                 unset($res->rows[$i]);
             }
@@ -1128,7 +1128,7 @@ final class ModelModuleBrainyFilter extends Model
 
         for($i=0;$i<count($typeAvto->rows);$i++ )
         {
-            if($typeAvto->rows[$i]['attr_id'] == 14) {
+            if($typeAvto->rows[$i]['attr_id'] == 15) {
                 array_push($res->rows, $typeAvto->rows[$i]);
             }
         }
@@ -1159,12 +1159,12 @@ final class ModelModuleBrainyFilter extends Model
                     */
                     switch($r['id'])
                     {
-                        case 8:{
-                            $r['category_id'] = 59;
+                        case 14:{
+                            $r['category_id'] = 60;
                             break;
                         }
-                        case 18:{
-                            $r['category_id'] = 60;
+                        case 15:{
+                            $r['category_id'] = 59;
                             break;
                         }
                         default :{

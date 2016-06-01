@@ -89,21 +89,46 @@ class ControllerProductCategory extends Controller {
 
 		$category_info = $this->model_catalog_category->getCategory($category_id);
 
-                    /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
-					if (!$category_info) {
-                        $this->load->language('module/brainyfilter');
-                        $category_info = array(
-                            'name' => $this->language->get('text_bf_page_title'),
-                            'description' => '',
-                            'meta_description' => '',
-                            'meta_keyword' => '',
-                            'meta_title' => '',
-                            'image' => '',
-                        );
-                        $this->request->get['path'] = 0;
-                    }
-                    /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
-                
+		/* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+		if (!$category_info) {
+			$this->load->language('module/brainyfilter');
+			$category_info = array(
+				'name' => $this->language->get('text_bf_page_title'),
+				'description' => '',
+				'meta_description' => '',
+				'meta_keyword' => '',
+				'meta_title' => '',
+				'image' => '',
+			);
+			$this->request->get['path'] = 0;
+		}
+		/*show selected attributes in filter on the top of the category page*/
+		$this->load->model('module/brainyfilter');
+		$conditions = $this->model_module_brainyfilter->getConditions();
+
+		$selected = array();
+		foreach ($conditions->attribute as $group => $idScope) {
+			for($i=0; $i < count($idScope); $i++)
+			{
+				array_push($selected, $idScope[$i]);
+			}
+		}
+
+		$attributes = $this->model_module_brainyfilter->getAttributes();
+		$data['selected'] = array();
+		foreach ($attributes as $attributeKey => $attributeValue)
+		{
+			for($i=0; $i < count($attributeValue['values']); $i++)
+			{
+				if(in_array($attributeValue['values'][$i]['id'],$selected))
+				{
+					array_push($data['selected'],$attributeValue['values'][$i]['name']);
+				}
+			}
+		}
+
+		/* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+
 
 		if ($category_info) {
 			$this->document->setTitle($category_info['meta_title']);
@@ -399,7 +424,7 @@ class ControllerProductCategory extends Controller {
 
 			// http://googlewebmastercentral.blogspot.com/2011/09/pagination-with-relnext-and-relprev.html
 			if ($page == 1) {
-			    //$this->document->addLink($this->url->link('product/category', 'path=' . $category_info['category_id'], 'SSL'), 'canonical');
+			    $this->document->addLink($this->url->link('product/category', 'path=' . $category_info['category_id'], 'SSL'), 'canonical');
 			} elseif ($page == 2) {
 			    $this->document->addLink($this->url->link('product/category', 'path=' . $category_info['category_id'], 'SSL'), 'prev');
 			} else {
@@ -407,7 +432,7 @@ class ControllerProductCategory extends Controller {
 			}
 
 			if ($limit && ceil($product_total / $limit) > $page) {
-			    //$this->document->addLink($this->url->link('product/category', 'path=' . $category_info['category_id'] . '&page='. ($page + 1), 'SSL'), 'next');
+			    $this->document->addLink($this->url->link('product/category', 'path=' . $category_info['category_id'] . '&page='. ($page + 1), 'SSL'), 'next');
 			}
 
 			$data['sort'] = $sort;

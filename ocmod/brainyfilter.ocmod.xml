@@ -88,6 +88,7 @@
 		   <search><![CDATA[<?php echo $header; ?>]]></search>
 		  <add position="before">
 			  <![CDATA[<?php if (!$this->registry->get('category_ajax')) : ?>]]>
+			  <div>123</div>
 		  </add>
 	  </operation>
 	  <operation>

@@ -200,20 +200,16 @@ $responsivePos = $settings['style']['responsive']['position'] === 'right' ? 'bf-
                             </div>
                             <div class="bf-attr-block-cont">
                                 <?php $group['type'] = isset($group['type']) ? $group['type'] : 'checkbox'; ?>
-                                
                                 <?php if ($group['type'] == 'select') : ?>
-
                                     <div class="bf-attr-filter bf-attr-<?php echo $groupUID; ?> bf-row">
                                         <div class="bf-cell">
                                             <select name="<?php echo "bfp_{$groupUID}"; ?>">
-                                                <?php if($groupUID!='a14') { ?>
+                                                <?php if($groupUID!='a15') { ?>
                                                 <option value="" class="bf-default"><?php echo $default_value_select; ?></option>
                                                 <?php } ?>
                                                 <?php foreach ($group['values'] as $value) : ?>
                                                     <?php $isSelected = isset($selected[$groupUID]) && in_array($value['id'], $selected[$groupUID]); ?>
-
-                                                    <option value="<?php echo $value['id']; ?>" data-category_id = "<?php echo $value['category_id']; ?>" class="bf-attr-val" <?php if ($isSelected) : ?>selected="true"<?php endif; ?>><?php echo $value['name']; ?></option>
-
+                                                    <option value="<?php echo $value['id']; ?>" data-category_id = "<?php echo $value['category_id']; ?>" class="bf-attr-val" <?php if (($path == $value['category_id']) && ($currentRoute!='common/home') && ($currentRoute!='') || ($isSelected)) : ?>selected="true"<?php endif; ?>><?php echo $value['name']; ?></option>
                                                 <?php endforeach; ?>
                                             </select>
                                         </div>

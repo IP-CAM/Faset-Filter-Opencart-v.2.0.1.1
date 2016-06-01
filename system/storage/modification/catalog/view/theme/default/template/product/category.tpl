@@ -18,6 +18,9 @@
       <h2><?php echo $heading_title; ?></h2>
       <?php if ($thumb || $description) { ?>
       <div class="row">
+
+
+
         <?php if ($thumb) { ?>
         <div class="col-sm-2"><img src="<?php echo $thumb; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-thumbnail" /></div>
         <?php } ?>
@@ -58,6 +61,13 @@
 		  <div id="brainyfilter-product-container">
 		  
       <?php if ($products) { ?>
+            <ul>
+      <?php
+          foreach($selected as $select){
+            echo "<li>" . $select . "</li>";
+          }
+      ?>
+            </ul>
       <p><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></p>
       <div class="row">
         <div class="col-md-4">

@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2493663d-6777-4951-9b9d-63ed2cdcc840" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1464343691" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1464343691" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1464357736" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1464356647" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.order_status.1.1464356651" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1464356660" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/module/brainyfilter.php" afterPath="$PROJECT_DIR$/catalog/controller/module/brainyfilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/module/brainyfilter.php" afterPath="$PROJECT_DIR$/catalog/model/module/brainyfilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/javascript/brainyfilter.js" afterPath="$PROJECT_DIR$/catalog/view/javascript/brainyfilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/module/brainyfilter.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/module/brainyfilter.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ocmod/brainyfilter.ocmod.xml" afterPath="$PROJECT_DIR$/ocmod/brainyfilter.ocmod.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/storage/logs/error.log" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/product/category.php" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/product/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/product/category.tpl" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/product/category.tpl" />
     </list>
     <ignored path="checkout.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="brainyfilter.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="brainyfilter.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/brainyfilter.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-58">
-              <caret line="170" column="43" selection-start-line="170" selection-start-column="43" selection-end-line="170" selection-end-column="43" />
+            <state relative-caret-position="316">
+              <caret line="152" column="79" selection-start-line="152" selection-start-column="70" selection-end-line="152" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -46,34 +58,31 @@
       <file leaf-file-name="brainyfilter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/javascript/brainyfilter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5678">
-              <caret line="490" column="63" selection-start-line="490" selection-start-column="63" selection-end-line="490" selection-end-column="63" />
+            <state relative-caret-position="325">
+              <caret line="677" column="85" selection-start-line="677" selection-start-column="84" selection-end-line="677" selection-end-column="85" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#4924#9027#0" expanded="false" />
-                <element signature="e#9060#9545#0" expanded="false" />
-                <element signature="e#9581#11013#0" expanded="false" />
-                <element signature="e#11042#13064#0" expanded="false" />
-                <element signature="e#24894#27048#0" expanded="false" />
-                <element signature="e#31681#32537#0" expanded="false" />
-                <element signature="e#32581#33346#0" expanded="false" />
-                <element signature="e#33389#33590#0" expanded="false" />
-                <element signature="e#33628#34209#0" expanded="false" />
-                <element signature="e#34255#37011#0" expanded="false" />
-                <element signature="e#37053#38635#0" expanded="false" />
-                <element signature="e#38681#42310#0" expanded="false" />
-                <element signature="e#42359#43898#0" expanded="false" />
-                <element signature="e#43933#46897#0" expanded="false" />
-                <element signature="e#46937#47306#0" expanded="false" />
-                <element signature="e#47341#50288#0" expanded="false" />
-                <element signature="e#50348#52122#0" expanded="false" />
-                <element signature="e#52175#53511#0" expanded="false" />
-                <element signature="e#53543#54043#0" expanded="false" />
-                <element signature="e#54085#55012#0" expanded="false" />
-                <element signature="e#55057#58974#0" expanded="false" />
-                <element signature="e#59042#60451#0" expanded="false" />
-                <element signature="e#60499#61236#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brainyfilter.ocmod.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ocmod/brainyfilter.ocmod.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/product/category.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,8 +90,8 @@
       <file leaf-file-name="brainyfilter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/controller/module/brainyfilter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5372">
-              <caret line="319" column="7" selection-start-line="319" selection-start-column="7" selection-end-line="319" selection-end-column="7" />
+            <state relative-caret-position="1836">
+              <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
               <folding>
                 <element signature="n#_sortProperties#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
                 <element signature="n#ajaxCountAttributes#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
@@ -97,6 +106,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/controller/product/category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="450" column="0" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brainyfilter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/model/module/brainyfilter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19686">
+              <caret line="1158" column="22" selection-start-line="1158" selection-start-column="22" selection-end-line="1158" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -105,14 +134,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/catalog/controller/product/category.php" />
-        <option value="$PROJECT_DIR$/system/storage/modification/catalog/controller/product/category.php" />
         <option value="$PROJECT_DIR$/catalog/controller/module/brainyfilter.php" />
         <option value="$PROJECT_DIR$/catalog/model/module/brainyfilter.php" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/brainyfilter.js" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/module/brainyfilter.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl" />
+        <option value="$PROJECT_DIR$/ocmod/brainyfilter.ocmod.xml" />
+        <option value="$PROJECT_DIR$/system/storage/modification/catalog/controller/product/category.php" />
+        <option value="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/product/category.tpl" />
       </list>
     </option>
   </component>
@@ -129,6 +160,16 @@
       <server host="opencart" id="1507b006-4ce3-49cf-ad00-1ec2068116f5" name="opencart" use_path_mappings="true">
         <path_mappings>
           <mapping local-root="$PROJECT_DIR$/admin" remote-root="C:/OpenServer/domains/opencart" />
+        </path_mappings>
+      </server>
+      <server host="faset-filter-opencart-2.0.1.1" id="80ab9e31-bf8e-4e51-9c4d-fb0c7848159f" name="faset-filter-opencart-2.0.1.1" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/admin" remote-root="C:/OpenServer/domains/faset-filter-opencart-2.0.1.1" />
+        </path_mappings>
+      </server>
+      <server host="filter" id="fb02757b-2277-428d-9ea4-e84ff6feee28" name="filter" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/admin" remote-root="C:/OpenServer/domains/filter" />
         </path_mappings>
       </server>
     </servers>
@@ -193,6 +234,262 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vqmod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modification" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modification" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modification" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modification" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modification" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocmod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -243,7 +540,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
+              <option name="myItemId" value="product" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,10 +606,50 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,34 +710,37 @@
       <workItem from="1464079009543" duration="44013000" />
       <workItem from="1464336597667" duration="629000" />
       <workItem from="1464340072832" duration="3633000" />
-      <workItem from="1464352984396" duration="1201000" />
+      <workItem from="1464352984396" duration="3185000" />
+      <workItem from="1464598594383" duration="18627000" />
+      <workItem from="1464684884944" duration="14800000" />
+      <workItem from="1464761141917" duration="942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121916000" />
+    <option name="totallyTimeSpent" value="158269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30021143" sideWeight="0.50416666" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18710022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33802816" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2578125" sideWeight="0.49583334" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2015625" sideWeight="0.49583334" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -419,16 +759,20 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="181" />
+      <option name="time" value="228" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
-        <watch expression="$this-&gt;_data" language="PHP" />
-        <watch expression="$_GET" language="PHP" />
         <watch expression="$data" language="PHP" />
-        <watch expression="$totalNumbers" language="PHP" />
-        <watch expression="$json" language="PHP" />
+        <watch expression="$_GET" language="PHP" />
         <watch expression="$this-&gt;model_module_brainyfilter-&gt;calculateTotals();" language="PHP" />
+        <watch expression="$data['attributes']" language="PHP" />
+        <watch expression="$attributes" language="PHP" />
+        <watch expression="$conditions-&gt;attribute" language="PHP" />
+        <watch expression="$selected" language="PHP" />
+        <watch expression="$data['selected']" language="PHP" />
+        <watch expression="$attributeValue['values'][$i]['id']" language="PHP" />
+        <watch expression="in_array($attributeValue['values'][$i]['id'],$selected)" language="PHP" />
       </configuration>
     </watches-manager>
   </component>
@@ -447,111 +791,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#4924#9027#0" expanded="false" />
-            <element signature="e#9060#9545#0" expanded="false" />
-            <element signature="e#9581#11013#0" expanded="false" />
-            <element signature="e#11042#13064#0" expanded="false" />
-            <element signature="e#24894#27048#0" expanded="false" />
-            <element signature="e#31681#32537#0" expanded="false" />
-            <element signature="e#32581#33346#0" expanded="false" />
-            <element signature="e#33389#33590#0" expanded="false" />
-            <element signature="e#33628#34209#0" expanded="false" />
-            <element signature="e#34255#37011#0" expanded="false" />
-            <element signature="e#37053#38635#0" expanded="false" />
-            <element signature="e#38681#42310#0" expanded="false" />
-            <element signature="e#42359#43898#0" expanded="false" />
-            <element signature="e#43933#46897#0" expanded="false" />
-            <element signature="e#46937#47306#0" expanded="false" />
-            <element signature="e#47341#50288#0" expanded="false" />
-            <element signature="e#50348#52122#0" expanded="false" />
-            <element signature="e#52175#53511#0" expanded="false" />
-            <element signature="e#53543#54043#0" expanded="false" />
-            <element signature="e#54085#55012#0" expanded="false" />
-            <element signature="e#55057#58974#0" expanded="false" />
-            <element signature="e#59042#60451#0" expanded="false" />
-            <element signature="e#60499#61236#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/module/brainyfilter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4709">
-          <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
-          <folding>
-            <element signature="n#_sortProperties#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
-            <element signature="n#ajaxCountAttributes#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
-            <element signature="n#_applySettings#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
-            <element signature="n#_sortSubCategories#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
-            <element signature="n#_convertSubCategoriesToArray#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
-            <element signature="n#_filterSubCategories#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
-            <element signature="n#_getSettings#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
-            <element signature="n#_arrayReplaceRecursive#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <marker date="1463661297965" expanded="true" signature="722:929" placeholder="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1463661297965" expanded="true" signature="970:1176" placeholder="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1463661297965" expanded="true" signature="1360:1504" placeholder="SELECT * FRO... ${DB_PREFIX}setting" />
-            <marker date="1463661297965" expanded="true" signature="3392:3485" placeholder="DELETE FROM " />
-            <marker date="1463661297965" expanded="true" signature="3512:3848" placeholder="SELECT DISTI... ${DB_PREFIX}api" />
-            <marker date="1463661297965" expanded="true" signature="4413:4473" placeholder="SELECT * FRO... ${DB_PREFIX}language" />
-            <marker date="1463661297965" expanded="true" signature="7564:7600" placeholder="SELECT * FRO... ${DB_PREFIX}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/controller/product/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6851">
-          <caret line="403" column="115" selection-start-line="403" selection-start-column="104" selection-end-line="403" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/brainyfilter.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3502">
-          <caret line="206" column="61" selection-start-line="206" selection-start-column="61" selection-end-line="206" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/brainyfilter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#4924#9027#0" expanded="false" />
-            <element signature="e#9060#9545#0" expanded="false" />
-            <element signature="e#9581#11013#0" expanded="false" />
-            <element signature="e#11042#13064#0" expanded="false" />
-            <element signature="e#24894#27048#0" expanded="false" />
-            <element signature="e#31681#32537#0" expanded="false" />
-            <element signature="e#32581#33346#0" expanded="false" />
-            <element signature="e#33389#33590#0" expanded="false" />
-            <element signature="e#33628#34209#0" expanded="false" />
-            <element signature="e#34255#37011#0" expanded="false" />
-            <element signature="e#37053#38635#0" expanded="false" />
-            <element signature="e#38681#42310#0" expanded="false" />
-            <element signature="e#42359#43898#0" expanded="false" />
-            <element signature="e#43933#46897#0" expanded="false" />
-            <element signature="e#46937#47306#0" expanded="false" />
-            <element signature="e#47341#50288#0" expanded="false" />
-            <element signature="e#50348#52122#0" expanded="false" />
-            <element signature="e#52175#53511#0" expanded="false" />
-            <element signature="e#53543#54043#0" expanded="false" />
-            <element signature="e#54085#55012#0" expanded="false" />
-            <element signature="e#55057#58974#0" expanded="false" />
-            <element signature="e#59042#60451#0" expanded="false" />
-            <element signature="e#60499#61236#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -611,29 +850,6 @@
           <caret line="444" column="38" selection-start-line="444" selection-start-column="38" selection-end-line="444" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#4924#9027#0" expanded="false" />
-            <element signature="e#9060#9545#0" expanded="false" />
-            <element signature="e#9581#11013#0" expanded="false" />
-            <element signature="e#11042#13064#0" expanded="false" />
-            <element signature="e#24894#27048#0" expanded="false" />
-            <element signature="e#31681#32537#0" expanded="false" />
-            <element signature="e#32581#33346#0" expanded="false" />
-            <element signature="e#33389#33590#0" expanded="false" />
-            <element signature="e#33628#34209#0" expanded="false" />
-            <element signature="e#34255#37011#0" expanded="false" />
-            <element signature="e#37053#38635#0" expanded="false" />
-            <element signature="e#38681#42310#0" expanded="false" />
-            <element signature="e#42359#43898#0" expanded="false" />
-            <element signature="e#43933#46897#0" expanded="false" />
-            <element signature="e#46937#47306#0" expanded="false" />
-            <element signature="e#47341#50288#0" expanded="false" />
-            <element signature="e#50348#52122#0" expanded="false" />
-            <element signature="e#52175#53511#0" expanded="false" />
-            <element signature="e#53543#54043#0" expanded="false" />
-            <element signature="e#54085#55012#0" expanded="false" />
-            <element signature="e#55057#58974#0" expanded="false" />
-            <element signature="e#59042#60451#0" expanded="false" />
-            <element signature="e#60499#61236#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -684,29 +900,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#4924#9027#0" expanded="false" />
-            <element signature="e#9060#9545#0" expanded="false" />
-            <element signature="e#9581#11013#0" expanded="false" />
-            <element signature="e#11042#13064#0" expanded="false" />
-            <element signature="e#24894#27048#0" expanded="false" />
-            <element signature="e#31681#32537#0" expanded="false" />
-            <element signature="e#32581#33346#0" expanded="false" />
-            <element signature="e#33389#33590#0" expanded="false" />
-            <element signature="e#33628#34209#0" expanded="false" />
-            <element signature="e#34255#37011#0" expanded="false" />
-            <element signature="e#37053#38635#0" expanded="false" />
-            <element signature="e#38681#42310#0" expanded="false" />
-            <element signature="e#42359#43898#0" expanded="false" />
-            <element signature="e#43933#46897#0" expanded="false" />
-            <element signature="e#46937#47306#0" expanded="false" />
-            <element signature="e#47341#50288#0" expanded="false" />
-            <element signature="e#50348#52122#0" expanded="false" />
-            <element signature="e#52175#53511#0" expanded="false" />
-            <element signature="e#53543#54043#0" expanded="false" />
-            <element signature="e#54085#55012#0" expanded="false" />
-            <element signature="e#55057#58974#0" expanded="false" />
-            <element signature="e#59042#60451#0" expanded="false" />
-            <element signature="e#60499#61236#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -757,29 +950,6 @@
           <caret line="337" column="89" selection-start-line="337" selection-start-column="69" selection-end-line="337" selection-end-column="89" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#4924#9027#0" expanded="false" />
-            <element signature="e#9060#9545#0" expanded="false" />
-            <element signature="e#9581#11013#0" expanded="false" />
-            <element signature="e#11042#13064#0" expanded="false" />
-            <element signature="e#24894#27048#0" expanded="false" />
-            <element signature="e#31681#32537#0" expanded="false" />
-            <element signature="e#32581#33346#0" expanded="false" />
-            <element signature="e#33389#33590#0" expanded="false" />
-            <element signature="e#33628#34209#0" expanded="false" />
-            <element signature="e#34255#37011#0" expanded="false" />
-            <element signature="e#37053#38635#0" expanded="false" />
-            <element signature="e#38681#42310#0" expanded="false" />
-            <element signature="e#42359#43898#0" expanded="false" />
-            <element signature="e#43933#46897#0" expanded="false" />
-            <element signature="e#46937#47306#0" expanded="false" />
-            <element signature="e#47341#50288#0" expanded="false" />
-            <element signature="e#50348#52122#0" expanded="false" />
-            <element signature="e#52175#53511#0" expanded="false" />
-            <element signature="e#53543#54043#0" expanded="false" />
-            <element signature="e#54085#55012#0" expanded="false" />
-            <element signature="e#55057#58974#0" expanded="false" />
-            <element signature="e#59042#60451#0" expanded="false" />
-            <element signature="e#60499#61236#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -853,21 +1023,6 @@
             <Category>Key columns</Category>
           </Categories>
           <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocmod/brainyfilter.ocmod.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/controller/product/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6851">
-          <caret line="403" column="115" selection-start-line="403" selection-start-column="104" selection-end-line="403" selection-end-column="115" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,57 +1117,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/model/module/brainyfilter.php">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1061">
-          <caret line="465" column="37" selection-start-line="465" selection-start-column="22" selection-end-line="465" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1444103800000" expanded="true" signature="26180:26194" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/content_top.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="70" column="19" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="19" />
+        <state relative-caret-position="831">
+          <caret line="94" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/brainyfilter.js">
+    <entry file="file://$PROJECT_DIR$/system/storage/cache/cache.currency.1464689471" />
+    <entry file="file://$PROJECT_DIR$/system/storage/cache/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5678">
-          <caret line="490" column="63" selection-start-line="490" selection-start-column="63" selection-end-line="490" selection-end-column="63" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#4924#9027#0" expanded="false" />
-            <element signature="e#9060#9545#0" expanded="false" />
-            <element signature="e#9581#11013#0" expanded="false" />
-            <element signature="e#11042#13064#0" expanded="false" />
-            <element signature="e#24894#27048#0" expanded="false" />
-            <element signature="e#31681#32537#0" expanded="false" />
-            <element signature="e#32581#33346#0" expanded="false" />
-            <element signature="e#33389#33590#0" expanded="false" />
-            <element signature="e#33628#34209#0" expanded="false" />
-            <element signature="e#34255#37011#0" expanded="false" />
-            <element signature="e#37053#38635#0" expanded="false" />
-            <element signature="e#38681#42310#0" expanded="false" />
-            <element signature="e#42359#43898#0" expanded="false" />
-            <element signature="e#43933#46897#0" expanded="false" />
-            <element signature="e#46937#47306#0" expanded="false" />
-            <element signature="e#47341#50288#0" expanded="false" />
-            <element signature="e#50348#52122#0" expanded="false" />
-            <element signature="e#52175#53511#0" expanded="false" />
-            <element signature="e#53543#54043#0" expanded="false" />
-            <element signature="e#54085#55012#0" expanded="false" />
-            <element signature="e#55057#58974#0" expanded="false" />
-            <element signature="e#59042#60451#0" expanded="false" />
-            <element signature="e#60499#61236#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/module/brainyfilter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19686">
+          <caret line="1158" column="22" selection-start-line="1158" selection-start-column="22" selection-end-line="1158" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="722">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <marker date="1463661297965" expanded="true" signature="722:929" placeholder="SELECT * FRO... ${DB_PREFIX}" />
             <marker date="1463661297965" expanded="true" signature="970:1176" placeholder="SELECT * FRO... ${DB_PREFIX}" />
@@ -1025,10 +1173,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/controller/product/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="450" column="0" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/module/brainyfilter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5372">
-          <caret line="319" column="7" selection-start-line="319" selection-start-column="7" selection-end-line="319" selection-end-column="7" />
+        <state relative-caret-position="1836">
+          <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
           <folding>
             <element signature="n#_sortProperties#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
             <element signature="n#ajaxCountAttributes#0;n#ControllerModuleBrainyFilter#0;n#!!top" expanded="false" />
@@ -1044,8 +1200,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/brainyfilter.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="170" column="43" selection-start-line="170" selection-start-column="43" selection-end-line="170" selection-end-column="43" />
+        <state relative-caret-position="316">
+          <caret line="152" column="79" selection-start-line="152" selection-start-column="70" selection-end-line="152" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/brainyfilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="677" column="85" selection-start-line="677" selection-start-column="84" selection-end-line="677" selection-end-column="85" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocmod/brainyfilter.ocmod.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/product/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
           <folding />
         </state>
       </provider>

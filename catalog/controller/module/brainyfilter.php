@@ -324,7 +324,6 @@ class ControllerModuleBrainyFilter extends Controller {
     public function filter()
     {
         $data = $this->_prepareFilterInitialData();
-        
         $this->load->controller('product/category', $data);
     }
 	

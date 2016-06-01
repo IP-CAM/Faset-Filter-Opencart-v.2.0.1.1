@@ -513,7 +513,7 @@ if (typeof BrainyFilter === 'undefined') {
                         {
                             location.reload();
                         }
-                        
+
 
                         window.history.pushState({"html": res['products'], "pageTitle": jQuery('title').text()}, "", newUrl);
                         window.onpopstate = function(e){
@@ -686,7 +686,7 @@ if (typeof BrainyFilter === 'undefined') {
 
             if(localStorage.isCarTypeChoosen != true || localStorage.isCarTypeChoosen != 'true') {
 
-                if (id == 'a14') {
+                if (id == 'a15') {
                     localStorage.isCarTypeChoosen = true;
                 }
             }
@@ -791,8 +791,8 @@ if (typeof BrainyFilter === 'undefined') {
                 gid  = name.replace(/(bfp_)([^_]+)(.*)/, '$2'),
                 val  = $this.attr('value');
 
-                //Костыль для того, что бы виды автомобилей не были display none
-                if(val == 8 || val == 18)
+                //для того, что бы виды автомобилей не были display none
+                if(val == 14 || val == 15)
                 {
                     $(this).css('display','block');
                 }
