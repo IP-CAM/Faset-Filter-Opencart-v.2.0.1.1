@@ -115,6 +115,7 @@ class ControllerProductCategory extends Controller {
 		}
 
 		$attributes = $this->model_module_brainyfilter->getAttributes();
+
 		$data['selected'] = array();
 		foreach ($attributes as $attributeKey => $attributeValue)
 		{
@@ -122,7 +123,8 @@ class ControllerProductCategory extends Controller {
 			{
 				if(in_array($attributeValue['values'][$i]['id'],$selected))
 				{
-					array_push($data['selected'],$attributeValue['values'][$i]['name']);
+					$data['selected'][$i]['name'] = $attributeValue['values'][$i]['name'];
+					$data['selected'][$i]['id'] =  $attributeValue['values'][$i]['id'];
 				}
 			}
 		}

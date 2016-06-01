@@ -61,13 +61,14 @@
 		  <div id="brainyfilter-product-container">
 		  
       <?php if ($products) { ?>
-            <ul>
-      <?php
-          foreach($selected as $select){
-            echo "<li>" . $select . "</li>";
-          }
-      ?>
-            </ul>
+      <ul>
+        <?php
+         foreach($selected as $select)
+         {
+            echo "<li>" . $select['name'] . "<a href='#'  data-id = " . $select['id'] . " class='disableFilterCriteria'>X</a>";
+         }
+        ?>
+      </ul>
       <p><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></p>
       <div class="row">
         <div class="col-md-4">

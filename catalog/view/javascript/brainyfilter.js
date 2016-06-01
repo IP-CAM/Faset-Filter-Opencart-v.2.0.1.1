@@ -45,6 +45,11 @@ if (typeof BrainyFilter === 'undefined') {
             this.redirectTo = this.redirectTo.replace('&amp;', '&');
 
             localStorage.href = location.href;
+            $("#content").delegate("a.disableFilterCriteria","click",function(e){
+                e.preventDefault();
+                id = $(this).data('id');
+                BrainyFilter.disableFilterElement(id);
+            })
 
             jQuery(this.sliderId).each(function(){
                 var $slider = jQuery(this),
@@ -140,6 +145,15 @@ if (typeof BrainyFilter === 'undefined') {
 
             this.initAbsolutePosition();
 
+        },
+
+        disableFilterElement: function(id) {
+            $('select option').each(function(){
+                if($(this).val()==id){
+                    $(this).parent().find('.bf-default').prop('selected', true).trigger('change');
+                }
+            });
+            return false;
         },
 
         initSliders : function() {

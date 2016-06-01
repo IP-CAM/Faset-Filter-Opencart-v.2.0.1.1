@@ -143,7 +143,6 @@ $responsivePos = $settings['style']['responsive']['position'] === 'right' ? 'bf-
                         </div>
                         <div class="bf-attr-block-cont">
                             <?php $groupUID = 'c0'; ?>
-
                             <?php if ($section['control'] == 'select') : ?>
                             <div class="bf-attr-filter bf-attr-<?php echo $groupUID; ?> bf-row">
                                 <div class="bf-cell">

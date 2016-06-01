@@ -14,6 +14,31 @@
 				if (isset($this->request->get['bfilter'])) {
 					$url .= '&bfilter=' . urlencode(htmlspecialchars_decode($this->request->get['bfilter']));
 				}
+
+				/*show selected attributes in filter on the top of the category page*/
+				$this->load->model('module/brainyfilter');
+				$conditions = $this->model_module_brainyfilter->getConditions();
+
+				$selected = array();
+				foreach ($conditions->attribute as $group => $idScope) {
+					for($i=0; $i < count($idScope); $i++)
+					{
+						array_push($selected, $idScope[$i]);
+					}
+				}
+
+				$attributes = $this->model_module_brainyfilter->getAttributes();
+				$data['selected'] = array();
+				foreach ($attributes as $attributeKey => $attributeValue)
+				{
+					for($i=0; $i < count($attributeValue['values']); $i++)
+					{
+						if(in_array($attributeValue['values'][$i]['id'],$selected))
+						{
+							array_push($data['selected'],$attributeValue['values'][$i]['name']);
+						}
+					}
+				}
                 /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
 		  </add>
 	  </operation>
@@ -85,10 +110,9 @@
    </file>
    <file path="catalog/view/theme/*/template/product/category.tpl">
    	  <operation>
-		   <search><![CDATA[<?php echo $header; ?>]]></search>
+		  <search><![CDATA[<?php echo $header; ?>]]></search>
 		  <add position="before">
 			  <![CDATA[<?php if (!$this->registry->get('category_ajax')) : ?>]]>
-			  <div>123</div>
 		  </add>
 	  </operation>
 	  <operation>
@@ -98,6 +122,18 @@
 		  <div id="brainyfilter-product-container">
 		  ]]></add>
 	  </operation>
+	   <operation>
+		   <search ><![CDATA[<?php if ($products) { ?>]]></search>
+		   <add position="after"><![CDATA[
+		 <ul>
+		  <?php
+			  foreach($selected as $select){
+				echo " <li> " . $select . " </li> ";
+			  }
+		  ?>
+		  </ul>
+		  ]]></add>
+	   </operation>
 	  <operation>
 		  <search><![CDATA[<?php echo $content_bottom; ?>]]></search>
 		  <add position="before"><![CDATA[
